@@ -11,9 +11,12 @@ body {
 .product {
   border: 3px solid black;
   width: 700px;
-  margin: 20px auto;  
+  margin: 20px auto;
+
+  position: relative;
 }
-.product-title{
+
+.product-title {
   background-color: #f7f7f7;
   text-transform: uppercase;
   text-align: center;
@@ -40,6 +43,8 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -81,4 +86,39 @@ body {
 .add-cart:hover {
   background-color: white;
   color: black;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  border: 1px solid black;
+
+  letter-spacing: 2px;
+}
+.color{
+  background-color: black;
+  width: 22px;
+  height: 22px;
+
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-red{
+  background-color: red;
+}
+.color-green{
+  background-color: green;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-yellow {
+  background-color: yellow;
 }
